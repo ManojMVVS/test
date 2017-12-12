@@ -5,7 +5,14 @@ int my_strlen(char *s)
  while (*p)
  ++p;
  return (p + s);
-}
+} 
+int strcmp(char*m)
+{
+	int j;
+ char *m[] = {
+ "Git tutorials",
+ "Tutorials Point"
+ };
 int main(void)
 {
  int i;
